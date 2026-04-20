@@ -3,17 +3,17 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace PersoneApi.Models;
 
-public class Person
+public class Member
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
 
-    [BsonElement("name")]
-    public string Name { get; set; } = string.Empty;
+    [BsonElement("firstName")]
+    public string FirstName { get; set; } = string.Empty;
 
-    [BsonElement("surname")]
-    public string Surname { get; set; } = string.Empty;
+    [BsonElement("lastName")]
+    public string LastName { get; set; } = string.Empty;
 
     [BsonElement("email")]
     public string Email { get; set; } = string.Empty;

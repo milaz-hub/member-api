@@ -2,15 +2,15 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PersoneApi.Dtos;
 
-public class PersonUpdateDto
+public class MemberCreateDto
 {
     [Required]
     [MaxLength(100)]
-    public string Name { get; set; } = string.Empty;
+    public string FirstName { get; set; } = string.Empty;
 
     [Required]
     [MaxLength(100)]
-    public string Surname { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
 
     [Required]
     [EmailAddress]
