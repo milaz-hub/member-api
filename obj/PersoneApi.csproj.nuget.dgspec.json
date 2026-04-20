@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milaz\\Desktop\\PersoneApi\\PersoneApi.csproj": {}
+    "C:\\Users\\milaz\\Desktop\\member-api\\PersoneApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milaz\\Desktop\\PersoneApi\\PersoneApi.csproj": {
+    "C:\\Users\\milaz\\Desktop\\member-api\\PersoneApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milaz\\Desktop\\PersoneApi\\PersoneApi.csproj",
+        "projectUniqueName": "C:\\Users\\milaz\\Desktop\\member-api\\PersoneApi.csproj",
         "projectName": "PersoneApi",
-        "projectPath": "C:\\Users\\milaz\\Desktop\\PersoneApi\\PersoneApi.csproj",
+        "projectPath": "C:\\Users\\milaz\\Desktop\\member-api\\PersoneApi.csproj",
         "packagesPath": "C:\\Users\\milaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milaz\\Desktop\\PersoneApi\\obj\\",
+        "outputPath": "C:\\Users\\milaz\\Desktop\\member-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\milaz\\AppData\\Roaming\\NuGet\\NuGet.Config"
